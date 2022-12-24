@@ -1,6 +1,6 @@
-package ch.tekk.spigotmavenbase;
+package org.example.spigotmavenbase;
 
-import ch.tekk.spigotmavenbase.command.ExampleCommand;
+import org.example.spigotmavenbase.command.ExampleCommand;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 

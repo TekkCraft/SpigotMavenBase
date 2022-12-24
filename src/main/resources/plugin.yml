@@ -1,12 +1,12 @@
 # Plugin name
 name: SpigotMavenBase
 # Your man executable class (change package name to your package)
-main: ch.tekk.spigotmavenbase.Main
+main: org.example.spigotmavenbase.Main
 # Plugin version
 version: 0.0.1-SNAPSHOT
 api-version: 1.19
 # Your name
-author: Tekk
+author: Example
 # Your website related to the plugin (optional)
 website: https://example.org/
 # Plugin description

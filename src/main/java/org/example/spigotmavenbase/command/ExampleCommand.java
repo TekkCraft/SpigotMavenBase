@@ -1,4 +1,4 @@
-package ch.tekk.spigotmavenbase.command;
+package org.example.spigotmavenbase.command;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
