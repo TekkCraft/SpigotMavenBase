@@ -3,6 +3,7 @@ package org.example.spigotmavenbase;
 import org.example.spigotmavenbase.command.ExampleCommand;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.example.spigotmavenbase.listener.PlayerJoinListener;
 
 /**
  * The main class of your plugin.
@@ -22,6 +23,9 @@ public class Main extends JavaPlugin {
 
         // Register command
         this.getCommand("example").setExecutor(new ExampleCommand(this.config));
+
+        // Register event
+        this.getServer().getPluginManager().registerEvents(new PlayerJoinListener(), this);
     }
 
     /**

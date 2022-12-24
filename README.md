@@ -8,7 +8,8 @@ This example is written for the Minecraft version 1.19.2.
 * Very basic plugin structure
 * Maven integration
 * Maven Shade example
-* Example command including config.yml & plugin.xml example
+* Example for a command including config.yml & plugin.xml example
+* Example for an event listener
 
 ## Installing Maven
 Download Maven: https://maven.apache.org/download.cgi  
