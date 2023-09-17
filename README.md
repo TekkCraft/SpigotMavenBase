@@ -2,7 +2,7 @@
 This project is a simple skeleton to make getting started with Minecraft Spigot plugins using Maven easier.
 
 ## Version
-This example is written for the Minecraft version 1.19.2.
+This example is written for the Minecraft version 1.20.1.
 
 ## Included
 * Very basic plugin structure
@@ -17,7 +17,7 @@ Install Maven: https://maven.apache.org/install.html
 
 ## Spigot Build Tools
 Build your Spigot server jar using the SpigotBuildTools.
-THe Spigot jar is also required for development.  
+The Spigot jar is also required for development.  
 https://www.spigotmc.org/wiki/buildtools/
 
 ## DEV Server Setup
